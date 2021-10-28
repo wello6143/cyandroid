@@ -1,4 +1,4 @@
-# Attention: sarchile development is temporary paused.
+# Attention: sarchile development is temporarily paused.
 
 Calm down, you can still continue to use or install sarchile without worry, it's really stable for now. We suggest you to take a look at manager script to understand it's limitations.
 
