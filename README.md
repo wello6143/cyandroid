@@ -1,5 +1,10 @@
-# IMPORTANT: This project is still under heavy development. We force push a lot!
-Join our [Telegram channel](https://t.me/joinchat/ol_1uKptA1ZiNWU1) now to stay up to date with main developer.
+# Attention: sarchile development is temporary paused.
+
+Calm down, you can still continue to use or install sarchile without worry, it's really stable for now. We suggest you to take a look at manager script to understand it's limitations.
+We expected to continue the development in the second half of 2022. Base image for installation will be rebuilt monthly.
+Write an issue immediately if you spotted an error or bug along the way. But most of the cases are Arch Linux ARM's fault and they will fix it in a few days.
+You can join the official [Telegram channel](https://t.me/joinchat/ol_1uKptA1ZiNWU1) but there's nothing much there for now.
+
 # sarchile
 
 **S**imple **Arch** Linux on mob**ile**
