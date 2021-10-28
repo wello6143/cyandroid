@@ -50,9 +50,7 @@ jobs:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         automatic_release_tag: "base"
         draft: false
-        prerelease: true
+        prerelease: false
         title: "Base system image"
         files: |
-          scripts/initscript.sh
-          scripts/smgr.sh
           base.tar.gz
