@@ -1,6 +1,6 @@
 # Attention: sarchile development is temporarily paused.
 
-Calm down, you can still continue to use or install sarchile without worry, it's really stable for now. We suggest you to take a look at manager script to understand it's limitations.
+Calm down, you can still continue to use or install sarchile without any issue, it's really stable for now. We suggest you to take a look at manager script to understand it's limitations.
 
 We expected to continue the development in the second half of 2022. Base image for installation will be rebuilt monthly.
 
