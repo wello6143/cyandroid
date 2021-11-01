@@ -18,7 +18,7 @@ This (project, maybe?) is a set of quick and simple scripts to help you run Arch
 
 ## Information
 
-We have moved all information of sarchile project to its [wiki](https://github.com/Weeb-Linux/sarchile/wiki).
+We have moved all information (such as installation, requirements, etc.) of sarchile project to its [wiki](https://github.com/Weeb-Linux/sarchile/wiki).
 
 ## Bug and feature tracker
 
