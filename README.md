@@ -24,11 +24,9 @@ We have moved all information (such as installation, requirements, etc.) of sarc
 
 Please see [sarchile development board](https://github.com/Weeb-Linux/sarchile/projects/1).
 
-## Image building
+## Base image
 
-Beside making scripts for user interaction, we also have pushed a lot of efforts to base image building script to ensure the best quality for sarchile.
-
-Simply checkout `base-image` branch. It uses GitHub Actions to build images automatically.
+Beside of making scripts for user interaction, we also have pushed a lot of efforts to base image building script to ensure the best quality for sarchile. We moved it to  `base-image` branch. It uses GitHub Actions to build images automatically.
 
 We do know this is a bad practice for a software repository but we don't have much time to think about it yet.
 
