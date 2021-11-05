@@ -25,7 +25,7 @@ case "$1" in
 		# Finish the installation
 		chmod +w .
 		echo "Reclaiming disk space..."
-		rm fedora.tar.gz
+		rm fedora.tar.xz
 		rm layer.tar
 		
 		# Quick fix DNS resolver
