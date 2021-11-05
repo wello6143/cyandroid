@@ -1,6 +1,6 @@
 # cyandroid
 
-This is a downstream fork from sarchile but is for deploying Fedora Linux on Android which is also using help from proot and Termux.
+This is a downstream fork from sarchile but for deploying Fedora Linux on Android which is also using help from proot and Termux.
 
 The reasons why I made this fork are...
 
