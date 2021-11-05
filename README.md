@@ -9,4 +9,31 @@ The reasons why I made this fork are...
 
 The name cyandroid is made off from cyan, the current Fedora theme color and an**droid**.
 
+The current script will help you to install Fedora 34. Official Fedora 35 aarch64 container image hasn't been built until this time but Fedora 35 aarch64 repositories are ready so you may want upgrade to 35 right after installation.
+
 cyandroid is not a product of Weeb/Linux, nor do I suggest you to use this over [termux-fedora](https://github.com/nmilosev/termux-fedora).
+
+## Installation
+
+Just like sarchile installation (copied from sarchile wiki): 
+
+Execute this command on Termux (optional, but recommended):
+```
+termux-setup-storage
+```
+Tap Allow if you're prompted to grant Termux access to Phone's internal storage.
+
+Install curl package on Termux:
+```
+pkg install curl -y
+```
+
+Initialize system and install cyandroid management script:
+```
+curl -Lso- https://git.io/JPN0w | bash
+```
+
+Start cyandroid installation:
+```
+fedora install
+```
