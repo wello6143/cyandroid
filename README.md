@@ -1,35 +1,12 @@
-# Attention: sarchile development is temporarily paused.
+# cyandroid
 
-Calm down, you can still continue to use or install sarchile without any issue, it's really stable for now. We suggest you to take a look at manager script to understand it's limitations.
+This is a downstream fork from sarchile but is for deploying Fedora Linux on Android which is also using help from proot and Termux.
 
-We expected to continue the development in the second half of 2022. Base image for installation will be rebuilt monthly.
+The reasons why I made this fork are...
 
-Write an issue immediately if you spotted an error or bug along the way. But most of the cases are Arch Linux ARM's fault and they will fix it in a few days.
+* I want to experiment with Fedora Linux aarch64 on my Android phone along sarchile.
+* According to [Arch Wiki](https://wiki.archlinux.org/title/Frequently_asked_questions#Why_would_I_not_want_to_use_Arch?), Arch Linux is only targeted for amd64 architecture so sarchile is heavily depends on Arch Linux ARM team for aarch64 variant. Arch Linux ARM team unofficially port Arch Linux to ARM devices and development itself is usually slow. Meanwhile, Fedora Linux is targeted for both amd64 and aarch64 architecture.
 
-You can join the official [Telegram channel](https://t.me/joinchat/ol_1uKptA1ZiNWU1) but there's nothing much there for now.
+The name cyandroid is made off from cyan, the current Fedora theme color and an**droid**.
 
-# sarchile
-
-**S**imple **Arch** Linux on mob**ile**
-
-## Introduction
-
-This (project, maybe?) is a set of quick and simple scripts to help you run Arch Linux on your Android. And yea, we use Termux with proot.
-
-## Information
-
-We have moved all information (such as installation, requirements, etc.) of sarchile project to its [wiki](https://github.com/Weeb-Linux/sarchile/wiki).
-
-## Bug and feature tracker
-
-Please see [sarchile development board](https://github.com/Weeb-Linux/sarchile/projects/1).
-
-## Base image
-
-Beside of making scripts for user interaction, we also have pushed a lot of efforts to base image building script to ensure the best quality for sarchile. We moved it to  `base-image` branch. It uses GitHub Actions to build images automatically.
-
-We do know this is a bad practice for a software repository but we don't have much time to think about it yet.
-
-# Donation
-- [PayPal](https://paypal.me/iamwello).
-- For donation from Vietnam. Please contact me via [Telegram](https://t.me/wello6143).
+cyandroid is not a product of Weeb/Linux, nor do I suggest you to use this over [termux-fedora](https://github.com/nmilosev/termux-fedora).
