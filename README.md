@@ -5,7 +5,8 @@ This is a downstream fork from sarchile but for deploying Fedora Linux on Androi
 The reasons why I made this fork are...
 
 * I want to experiment with Fedora Linux aarch64 on my Android phone along with sarchile.
-* According to [Arch Wiki](https://wiki.archlinux.org/title/Frequently_asked_questions#Why_would_I_not_want_to_use_Arch?), Arch Linux is only targeted for amd64 architecture so sarchile is heavily depends on Arch Linux ARM team for aarch64 variant. Arch Linux ARM team unofficially port Arch Linux to ARM devices and development itself is usually slow. Meanwhile, Fedora Linux is targeted for both amd64 and aarch64 architecture.
+* According to [Arch Wiki](https://wiki.archlinux.org/title/Frequently_asked_questions#Why_would_I_not_want_to_use_Arch?), Arch Linux is only targeted for amd64 architecture and sarchile is heavily depends on Arch Linux ARM team for aarch64 variant. Arch Linux ARM team unofficially port Arch Linux to ARM devices and development itself is usually slow. Meanwhile, Fedora Linux is targeted for both amd64 and aarch64 architecture.
+* Fedora container image (and Fedora itself too) is designed for containerized/chroot/proot environment, so it is considered is much more stable to use than 
 
 The name cyandroid is made off from cyan, the current Fedora theme color and an**droid**.
 
