@@ -1,4 +1,4 @@
-echo "Welcome to sarchile!"
+echo "Welcome to cyandroid!"
 echo "brought to you by Weeb/Linux Team."
 echo "licensed under MIT License, free!"
 echo ""
@@ -11,10 +11,10 @@ echo ""
 
 pkg install wget proot tar aria2 -y
 
-echo "Installing sarchile manager tool..."
+echo "Installing cyandroid manager tool..."
 
-wget -O /data/data/com.termux/files/usr/bin/smgr https://git.io/JKJrk
-chmod +x /data/data/com.termux/files/usr/bin/smgr
+wget -O /data/data/com.termux/files/usr/bin/fedora https://git.io/JPN0O
+chmod +x /data/data/com.termux/files/usr/bin/fedora
 
 echo "Environment initialization is done!"
-echo "To begin with sarchile installation, do smgr install."
+echo "To begin with cyandroid installation, do fedora install."
