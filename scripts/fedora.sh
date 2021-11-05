@@ -13,9 +13,9 @@ case "$1" in
 		echo ""
 
 		# Get base image for installation
-		echo "Getting sarchile base image, please do not kill the installation unless error messages are spawned."
+		echo "Getting fedora base image, please do not kill the installation unless error messages are spawned."
 		echo "Please wait, this may take a while..."
-		/data/data/com.termux/files/usr/bin/aria2c $IMAGE -o fedora.tar.gz -x 16 -q
+		/data/data/com.termux/files/usr/bin/aria2c $IMAGE -o fedora.tar.xz -x 16 -q
 
 		# Extract base image
 		echo "Extracting base image..."
