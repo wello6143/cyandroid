@@ -36,12 +36,3 @@ Start cyandroid installation:
 ```
 fedora install
 ```
-
-The current script will help you to install Fedora 34. Official Fedora 35 aarch64 container image hasn't been built until this time but Fedora 35 aarch64 repositories are ready so you may want upgrade to 35 right after installation.
-
-To do so, start Fedora with `fedora start` and do:
-
-```
-dnf --releasever=35 upgrade
-```
-After the update is done, exit Fedora with `exit` command and start Fedora again.
