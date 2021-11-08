@@ -4,7 +4,7 @@ DIR=~/.fedora
 
 case "$1" in
 	install)
-		IMAGE=https://download.fedoraproject.org/pub/fedora/linux/releases/34/Container/aarch64/images/Fedora-Container-Base-34-1.2.aarch64.tar.xz
+		IMAGE=https://download.fedoraproject.org/pub/fedora/linux/releases/35/Container/aarch64/images/Fedora-Container-Base-35-1.2.aarch64.tar.xz
 		
 		# Create a directory for cyandroid
 		echo "fedora rootfs will be installed under directory .fedora"
